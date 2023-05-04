@@ -16,14 +16,12 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.style.TextAlign
-import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.application
 import model.viewmodel.JsonAction
 import model.viewmodel.JsonViewModel
-import ui.dialog.JsonPrettyErrorDialog
 import ui.theme.*
 
 val viewModel = JsonViewModel()

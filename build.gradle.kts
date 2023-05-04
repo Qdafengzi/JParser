@@ -24,24 +24,8 @@ kotlin {
             dependencies {
                 implementation(compose.desktop.currentOs)
 
-//                implementation(compose.desktop.currentOs) {
-//                    exclude("org.jetbrains.compose.material")
-//                }
-//                implementation("com.bybutter.compose:compose-jetbrains-expui-theme:2.0.0")
-
                 implementation("com.google.code.gson:gson:2.10.1")
                 implementation("androidx.test.ext:junit-ktx:1.1.5")
-
-//                implementation("com.alibaba.fastjson2:fastjson2-kotlin:2.0.29")
-
-//                implementation("org.json:json:20230227")
-//                implementation("com.github.wnameless.json:json-flattener:0.16.4")
-
-                // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind
-//                implementation("com.fasterxml.jackson.core:jackson-databind:2.15.0")
-
-//                implementation("com.github.java-json-tools:json-schema-validator:2.2.14")
-
 
             }
         }

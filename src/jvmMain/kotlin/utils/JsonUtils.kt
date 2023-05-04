@@ -12,8 +12,6 @@ object JsonUtils {
     /**
      * 解析成漂亮格式
      */
-
-
     fun toPrettyFormat(json: String): String? {
         try {
             val jsonObject = JsonParser.parseString(json).asJsonObject
